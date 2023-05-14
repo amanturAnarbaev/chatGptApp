@@ -87,7 +87,7 @@ class MainFragment : Fragment() {
                 val params: MutableMap<String, String> = HashMap()
                 params["Content-Type"] = "application/json"
                 params["Authorization"] =
-                    "Bearer (in this part add your api key from open AI)"
+                    "Bearer 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"
                 //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
                 return params
             }

@@ -1,6 +1,6 @@
 package com.example.chatgpt
 
 data class MessageRvModal (
-    var messege :String,
+    var message :String,
     var sender : String
         )
