@@ -39,8 +39,6 @@ class MainFragment : Fragment() {
         adapter = MessageRvAdapter(messageList)
         binding.recycler.adapter = adapter
 
-    
-
 
         binding.etQuery.setOnEditorActionListener(TextView.OnEditorActionListener { v, actionId, event ->
             if (actionId == EditorInfo.IME_ACTION_SEND) {
@@ -89,7 +87,8 @@ class MainFragment : Fragment() {
                 val params: MutableMap<String, String> = HashMap()
                 params["Content-Type"] = "application/json"
                 params["Authorization"] =
-                    "Bearer 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"
+                    "Bearer (in this part add your api key from open AI)"
+                //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
                 return params
             }
         }
